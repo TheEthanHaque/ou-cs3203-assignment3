@@ -1,4 +1,5 @@
 import sumOfNumbers
+import reverse
 
 def main():
 
@@ -8,5 +9,6 @@ def main():
 
     print("These are the result of sum of Numbers: " + str(sumOfNumbers.sumOfNumbers(numList)))
     print("These are the result of product of Numbers: " + str(sumOfNumbers.productOfNumbers(numList)))
+    print("reverse of array: ", reverse.reverse_list(numList))
 
 main()
